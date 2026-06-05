@@ -12,5 +12,5 @@ def calcular_promedio(notas):
 
 def aprobo(promedio):
     if promedio >= 7:
-        return "Aprobado"
-    return "Reprobado"
+        return "si aprobó"
+    return "no aprobó"
