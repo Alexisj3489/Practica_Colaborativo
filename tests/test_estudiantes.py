@@ -17,6 +17,6 @@ def test_calcular_promedio():
 
 
 def test_aprobo():
-    assert aprobo(8) == "Aprobado"
-    assert aprobo(5) == "Reprobado"
-    assert aprobo(7) == "Aprobado"
+    assert aprobo(8) == "si aprobó"
+    assert aprobo(5) == "no aprobó"
+    assert aprobo(7) == "si aprobó"
